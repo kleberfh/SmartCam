@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99505E4D21138B470011AD6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99505E4C21138B470011AD6C /* Assets.xcassets */; };
 		9986CDB22110D1BD0038F9B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986CDB12110D1BD0038F9B3 /* AppDelegate.swift */; };
 		9986CDB42110D1BD0038F9B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986CDB32110D1BD0038F9B3 /* ViewController.swift */; };
 		9986CDB72110D1BE0038F9B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9986CDB52110D1BE0038F9B3 /* Main.storyboard */; };
 		9986CDBA2110D1BE0038F9B3 /* smartCam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9986CDB82110D1BE0038F9B3 /* smartCam.xcdatamodeld */; };
-		9986CDBC2110D1BF0038F9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9986CDBB2110D1BF0038F9B3 /* Assets.xcassets */; };
 		9986CDBF2110D1BF0038F9B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9986CDBD2110D1BF0038F9B3 /* LaunchScreen.storyboard */; };
 		9986CDCA2110D1BF0038F9B3 /* smartCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986CDC92110D1BF0038F9B3 /* smartCamTests.swift */; };
 		9986CDD52110D1C00038F9B3 /* smartCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986CDD42110D1C00038F9B3 /* smartCamUITests.swift */; };
+		E08F636C2B3F93EE008A7C94 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E08F636B2B3F93EE008A7C94 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99505E4C21138B470011AD6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9986CDAE2110D1BD0038F9B3 /* smartCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9986CDB12110D1BD0038F9B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9986CDB32110D1BD0038F9B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9986CDB62110D1BE0038F9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9986CDB92110D1BE0038F9B3 /* smartCam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = smartCam.xcdatamodel; sourceTree = "<group>"; };
-		9986CDBB2110D1BF0038F9B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9986CDBE2110D1BF0038F9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9986CDC02110D1BF0038F9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9986CDC52110D1BF0038F9B3 /* smartCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,7 @@
 		9986CDD02110D1C00038F9B3 /* smartCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9986CDD42110D1C00038F9B3 /* smartCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartCamUITests.swift; sourceTree = "<group>"; };
 		9986CDD62110D1C00038F9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08F636B2B3F93EE008A7C94 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		9986CDB02110D1BD0038F9B3 /* smartCam */ = {
 			isa = PBXGroup;
 			children = (
+				E08F636B2B3F93EE008A7C94 /* MobileNet.mlmodel */,
 				9986CDB12110D1BD0038F9B3 /* AppDelegate.swift */,
 				9986CDB32110D1BD0038F9B3 /* ViewController.swift */,
 				9986CDB52110D1BE0038F9B3 /* Main.storyboard */,
-				9986CDBB2110D1BF0038F9B3 /* Assets.xcassets */,
+				99505E4C21138B470011AD6C /* Assets.xcassets */,
 				9986CDBD2110D1BF0038F9B3 /* LaunchScreen.storyboard */,
 				9986CDC02110D1BF0038F9B3 /* Info.plist */,
 				9986CDB82110D1BE0038F9B3 /* smartCam.xcdatamodeld */,
@@ -233,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9986CDBF2110D1BF0038F9B3 /* LaunchScreen.storyboard in Resources */,
-				9986CDBC2110D1BF0038F9B3 /* Assets.xcassets in Resources */,
+				99505E4D21138B470011AD6C /* Assets.xcassets in Resources */,
 				9986CDB72110D1BE0038F9B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08F636C2B3F93EE008A7C94 /* MobileNet.mlmodel in Sources */,
 				9986CDBA2110D1BE0038F9B3 /* smartCam.xcdatamodeld in Sources */,
 				9986CDB42110D1BD0038F9B3 /* ViewController.swift in Sources */,
 				9986CDB22110D1BD0038F9B3 /* AppDelegate.swift in Sources */,
